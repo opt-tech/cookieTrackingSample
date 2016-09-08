@@ -10,9 +10,10 @@
 $.ajax({
     type: "POST",
     url: "http://localhost:8080/pre_flight",
+    headers: {'X-Requested-With': 'XMLHttpRequest'},
     data: "key=value",
     success: function(msg){
-        alert(msg );
+        alert(msg);
     }
 });
 </script>
