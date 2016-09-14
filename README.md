@@ -1,7 +1,12 @@
 
 ## cookie tracking(& CORS) sample
 
-1. サーバーの起動
+## 前提条件
+
+- Java8
+- sbt
+
+## サーバーの起動
 
 `sbt trackingServer/run`
 
